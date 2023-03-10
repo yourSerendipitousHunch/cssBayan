@@ -1,0 +1,42 @@
+body {
+  background-color: ghostwhite;
+}
+.container {
+  max-width: 80vw;
+  margin: auto;
+  padding: 2em 1em;
+}
+.title {
+  font: 3em bold;
+  border-bottom: 0.05em solid lightgrey;
+  padding: 0.3em 0;
+}
+.items {
+  padding: 0.5em 0;
+}
+.item {
+  padding: 1em 0;
+  border-bottom: 0.03em solid lightgrey;
+}
+.item__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.15em 0 0.5em 0;
+}
+.item__headline {
+  font: 2em bold;
+}
+.item__icon {
+  width: 1em;
+  height: 1.5em;
+  background-image: url(../img/icons/xmark.svg);
+  background-repeat: no-repeat;
+}
+.item__img {
+  display: flex;
+  justify-content: center;
+}
+img {
+  max-width: 100%;
+}
