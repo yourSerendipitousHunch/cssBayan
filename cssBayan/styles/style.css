@@ -6,7 +6,7 @@ body {
   margin: auto;
   padding: 2em 1em;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .container:hover {
     cursor: pointer;
   }
@@ -16,12 +16,12 @@ body {
   border-bottom: 0.05em solid lightgrey;
   padding: 0.3em 0;
 }
-@media (max-width: 999px) {
+@media (max-width: 62rem) {
   .title {
     font: 2.5em bold;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .title {
     font: 2em bold;
   }
@@ -54,12 +54,12 @@ body {
 .item__headline {
   font: 2em bold;
 }
-@media (max-width: 999px) {
+@media (max-width: 62rem) {
   .item__headline {
     font: 1.5em bold;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .item__headline {
     font: 1em bold;
   }
