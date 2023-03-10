@@ -16,6 +16,16 @@ body {
   border-bottom: 0.05em solid lightgrey;
   padding: 0.3em 0;
 }
+@media (max-width: 999px) {
+  .title {
+    font: 2.5em bold;
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    font: 2em bold;
+  }
+}
 .items {
   padding: 0.5em 0;
 }
@@ -43,6 +53,16 @@ body {
 }
 .item__headline {
   font: 2em bold;
+}
+@media (max-width: 999px) {
+  .item__headline {
+    font: 1.5em bold;
+  }
+}
+@media (max-width: 768px) {
+  .item__headline {
+    font: 1em bold;
+  }
 }
 .item__icon {
   width: 1.3em;
