@@ -6,8 +6,10 @@ body {
   margin: auto;
   padding: 2em 1em;
 }
-.container:hover {
-  cursor: pointer;
+@media (min-width: 768px) {
+  .container:hover {
+    cursor: pointer;
+  }
 }
 .title {
   font: 3em bold;
@@ -21,6 +23,18 @@ body {
   padding: 1em 0;
   border-bottom: 0.03em solid lightgrey;
 }
+.item:hover {
+  color: navy;
+}
+.item:hover .item__img{
+    display: flex;
+    justify-content: center;
+}
+.item:hover .item__icon {
+  width: 1em;
+  height: 1.5em;
+  background-image: url(../img/icons/xmark.svg);
+}
 .item__head {
   display: flex;
   justify-content: space-between;
@@ -31,14 +45,13 @@ body {
   font: 2em bold;
 }
 .item__icon {
-  width: 1em;
+  width: 1.3em;
   height: 1.5em;
-  background-image: url(../img/icons/xmark.svg);
+  background-image: url(../img/icons/plus.svg);
   background-repeat: no-repeat;
 }
 .item__img {
-  display: flex;
-  justify-content: center;
+  display: none;
 }
 img {
   max-width: 100%;
