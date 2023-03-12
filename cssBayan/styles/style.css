@@ -77,3 +77,15 @@ body {
 img {
   max-width: 100%;
 }
+.item__checkbox:checked ~ .item {
+  color: navy;
+}
+.item__checkbox:checked ~ .item .item__img {
+  display: flex;
+  justify-content: center;
+}
+.item__checkbox:checked ~ .item .item__icon {
+  width: 1em;
+  height: 1.5em;
+  background-image: url(../img/icons/xmark.svg);
+}
