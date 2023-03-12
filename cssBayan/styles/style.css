@@ -29,6 +29,13 @@ body {
 .items {
   padding: 0.5em 0;
 }
+.items:hover .item__icon {
+  width: 1.3em;
+  height: 1.5em;
+  background-image: url(../img/icons/plus.svg);
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease-out;
+}
 .item {
   padding: 1em 0;
   border-bottom: 0.03em solid lightgrey;
@@ -63,13 +70,6 @@ body {
   .item__headline {
     font: 1em bold;
   }
-}
-.item__icon {
-  width: 1.3em;
-  height: 1.5em;
-  background-image: url(../img/icons/plus.svg);
-  background-repeat: no-repeat;
-  transition: background-image 0.5s ease-out;
 }
 .item__img {
   display: none;
